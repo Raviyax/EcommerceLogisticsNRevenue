@@ -1,6 +1,7 @@
 # Strategic E-Commerce Logistics & Revenue Analytics Report
 
 ##### Prepared By - W.A.R.P. Jayathilake (21020434)
+###### [Github Repository](https://github.com/Raviyax/EcommerceLogisticsNRevenue) 
 
 ## 1. Introduction
 Analysis of **110,163 orders** from Olist's Brazilian e-commerce platform reveals a critical inefficiency: **shipping costs consume 20–35% of purchase value**, acting as a primary conversion barrier. The median freight (16.26 BRL) on median purchase (74.90 BRL) represents **22% of transaction value**  a known abandonment trigger. Three strategic interventions can drive **15–25% revenue growth** within 12 months.
