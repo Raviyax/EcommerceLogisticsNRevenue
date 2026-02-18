@@ -18,17 +18,16 @@ Analyzing 110,163 transactions, the median price is 74.90 BRL with mean of 119.9
 
 ## 4. Statistical Analysis & Correlation Results
 
-![Correlation Matrix of Continuous Variables](CorrelationMatrix.png)
-
 Weight and freight show strong correlation (0.61), indicating weight is the dominant cost driver with heavy goods facing exponential increases. Price and freight correlate at 0.41, meaning premium items cost more to ship and experience margin compression. Photo quantity has near-zero impact (0.02–0.05 correlation with price/weight), suggesting quality matters more than quantity. Geography shows negative correlation with freight (−0.23), revealing regional inefficiencies where remote states pay premiums. Overall, weight explains 37% of freight variance, making heavy goods like furniture and appliances face 25–35% higher relative costs, rendering them uncompetitive on the platform.
+![Correlation Matrix of Continuous Variables](CorrelationMatrix.png)
 
 ## 5. Strategic Recommendations
 
-**Recommendation #1: Free Shipping Threshold** (High Impact, 30–60 days, 3–4 month ROI). The median freight at 22% of order value triggers cart abandonment. Implement free shipping on orders >150 BRL, 50% subsidy for 100–150 BRL, and standard rates <100 BRL. Expected outcomes: 8–12% conversion lift and AOV increase to 120+ BRL.
+**Free Shipping Threshold** (High Impact, 30–60 days, 3–4 month ROI). The median freight at 22% of order value triggers cart abandonment. Implement free shipping on orders >150 BRL, 50% subsidy for 100–150 BRL, and standard rates <100 BRL. Expected outcomes: 8–12% conversion lift and AOV increase to 120+ BRL.
 
-**Recommendation #2: Regional Fulfillment Hubs for Heavy Goods** (Medium-High Impact, 90–180 days, 6–12 month ROI). The weight-freight correlation creates structural disadvantage for furniture and appliances. Establish 3–5 fulfillment hubs (São Paulo, Rio, Belo Horizonte, Brasília, Salvador), partner with local logistics providers for volume discounts, and incentivize sellers to pre-position inventory through 2% revenue share. Expected outcomes: 25–35% freight cost reduction for heavy goods and 12–18% revenue uplift.
+**Regional Fulfillment Hubs for Heavy Goods** (Medium-High Impact, 90–180 days, 6–12 month ROI). The weight-freight correlation creates structural disadvantage for furniture and appliances. Establish 3–5 fulfillment hubs (São Paulo, Rio, Belo Horizonte, Brasília, Salvador), partner with local logistics providers for volume discounts, and incentivize sellers to pre-position inventory through 2% revenue share. Expected outcomes: 25–35% freight cost reduction for heavy goods and 12–18% revenue uplift.
 
-**Recommendation #3: Precision Customer Segmentation** (Medium Impact, 60–90 days, Low Difficulty). K-Means clustering identifies three segments: Red cluster (45 BRL AOV, 14 BRL freight, 55% customers) should receive bundle deals and free shipping >100 BRL; Green cluster (150 BRL AOV, 22 BRL freight, 30% customers) needs VIP loyalty and 5% rebates >200 BRL; Blue cluster (350+ BRL AOV, 35 BRL freight, 15% customers) requires concierge service and exclusive access. Expected outcomes: Red→Green conversion of 10–15%, email ROI of 3–5x, and churn reduction of 8–12%.
+**Precision Customer Segmentation** (Medium Impact, 60–90 days, Low Difficulty). K-Means clustering identifies three segments: Red cluster (45 BRL AOV, 14 BRL freight, 55% customers) should receive bundle deals and free shipping >100 BRL; Green cluster (150 BRL AOV, 22 BRL freight, 30% customers) needs VIP loyalty and 5% rebates >200 BRL; Blue cluster (350+ BRL AOV, 35 BRL freight, 15% customers) requires concierge service and exclusive access. Expected outcomes: Red→Green conversion of 10–15%, email ROI of 3–5x, and churn reduction of 8–12%.
 
 ## 6. Conclusion
 
